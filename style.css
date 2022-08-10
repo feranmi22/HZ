@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f3f3f3;
+    font-family: sans-serif;
+}
+.header{
+    background: url(Rectangle\ 2\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background-position: absolute;
+}
+.navbar{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+    margin-left: 120px;
+    margin-top: 65px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    margin-top: 70px;
+    align-items: center;
+}
+.header ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 7px;
+    margin-left: 50px;
+    
+}
+.header ul .book{
+   padding: 10px;
+   background: rgba(222, 188, 100, 1);
+   color: black;
+}
+.sub-text{
+    color: white;
+    text-align: center;
+    font-family: sans-serif; 
+    font-size: 45px;
+    line-height: 3.9;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 140px;
+    margin-bottom: 130px;
+    margin-left: 80px;
+}
+.boxes a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+.box-a img{
+    background: rgba(229, 229, 229, 1);
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 75px;
+    margin-bottom: 20px;
+}
+.box-a a{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgba(80, 80, 80, 1);
+    font-weight: lighter;
+    margin-top: 15px;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.box-b img{
+    background: rgba(229, 229, 229, 1);
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 75px;
+    margin-bottom: 20px;
+}
+.box-b a{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgba(80, 80, 80, 1);
+    font-weight: lighter;
+    margin-top: 15px;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.box-c img{
+    background: rgba(229, 229, 229, 1);
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 75px;
+    margin-bottom: 20px;
+}
+.box-c a{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgba(80, 80, 80, 1);
+    font-weight: lighter;
+}
+.box-d img{
+    background: rgba(229, 229, 229, 1);
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 75px;
+    margin-bottom: 20px;
+}
+.box-d a{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgba(80, 80, 80, 1);
+    font-weight: lighter;
+    margin-left: 15px;
+
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.card-a{
+    background: #fff;
+    box-shadow: black;
+    line-height: 1.3;
+    height: 103vh;
+}
+.card-a h2{
+    color: rgba(80, 80, 80, 1);
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+.card-a img{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.card-a h3{
+    color: rgba(80, 80, 80, 1);
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.card-a h1{
+    color: rgba(80, 80, 80, 1);
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+.card-a h4{
+    color: rgba(80, 80, 80, 1);
+    margin-left: 30px;
+    line-height: 2;
+    font-weight: lighter;
+}
+.card-a p{
+    color: rgba(80, 80, 80, 1);
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.name{
+    padding: 13px 10px;
+    width: 350px;
+    height: 65px;
+    color: rgba(80, 80, 80, 1);
+    font-size: 19px;
+    font-weight: lighter;
+}
+.wrapper{
+    display: flex;
+    padding: 20px;
+    background: rgb(241, 238, 238);
+}
+.card-b{
+    margin-right: 20px;
+}
+.card-b h2{
+    color: rgba(80, 80, 80, 1);
+    font-size: 30px;
+}
+.card-b form{
+    margin-top: 70px;
+    line-height: 4.1;  
+}
+.card-c{
+    margin-top: 105px;
+}
+.card-c form{
+    line-height: 4.1;
+}
+.card-c h2{
+    font-size: 15px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
